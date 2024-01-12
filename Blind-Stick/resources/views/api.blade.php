@@ -15,23 +15,59 @@
             <nav class="flex gap-8">
                 <a href="/">Home</a>
                 <a href="/service">Service</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
+                <a href="/">{{ $object }}</a>
+                <a href="/">Contact</a>
             </nav>
         </nav>
     </header>
-    <section class="container flex items-center justify-center min-h-screen  mx-auto">
-        <div class="text-slate-200 w-[60%]  ">
-            <h3 class="text-[200%]">Hai, Selamat datang</h3>
-            <h1 class="text-[300%] font-extrabold leading-[70px]">Solusi Inovatif untuk <br> Navigasi Aman Tunanetra.</h1>
-            <p class="text-[140%]">Berikan Kemandirian, Bukan Penderitaan</p>
-            <div class="flex gap-10 mt-10">
-                <a href="/signin" class="py-3 px-14 bg-green-500 rounded-[10px] ">Daftar</a>
-                <a href="/login" class="py-3 px-14 bg-transparent border-gray-100 outline-none border-[1px] rounded-[10px] ">Masuk</a>
+    <section class="container  min-h-screen  mx-auto pt-[3%] text-slate-200">
+        <h1 class="text-center text-[200%] font-bold text-slate-200">Service</h1>
+        <div class="flex flex-col items-center justify-center gap-3">
+            <div class=" flex gap-5  w-full">
+                <div class="w-[70%] bg-slate-700 grid p-5 rounded-[20px]">
+                    <table class="w-full text-center">
+                        <thead>
+                            <td>No</td>
+                            <td>Obstacle</td>
+                            <td>Jarak</td>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Obstacle 1</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Obstacle 2</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Obstacle 3</td>
+                                <td>100</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Obstacle 4</td>
+                                <td>100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="w-[30%] bg-slate-700 flex items-center justify-center flex-col rounded-[20px]">
+                    <img src="/asset/image/audio.png" alt="" width="150px">
+                    <img src="/asset/image/audioNone.png" alt="" width="150px">
+                </div>
             </div>
-        </div>
-        <div class="w-[40%] ">
-            <img src="/asset/image/main_image.svg" alt="" class="h-[500px] w-[500px]">
+            <div class="bg-slate-700 w-full flex p-12 rounded-[18px] items-center justify-center gap-5">
+                <img src="/asset/image/user.png" alt="" width="150px">
+                <img src="/asset/image/book.png" alt="" width="150px">
+                <img src="/asset/image/jam.png" alt="" width="150px">
+                <img src="/asset/image/map.png" alt="" width="150px">
+                <img src="/asset/image/note.png" alt="" width="150px">
+                <img src="/asset/image/volume.png" alt="" width="150px">
+            </div>
         </div>
     </section>
     <section class="container flex items-center justify-center min-h-screen  mx-auto">

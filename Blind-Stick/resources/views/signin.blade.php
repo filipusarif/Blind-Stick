@@ -17,8 +17,6 @@
         import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js'
         // import { getAuth,  } from "firebase/auth";
 
-
-
         const firebaseConfig = {
         apiKey: "AIzaSyBEg73avwSOIAdhy0P0cTyO_-ITBUB9R-8",
         authDomain: "blind-stick-19340.firebaseapp.com",
