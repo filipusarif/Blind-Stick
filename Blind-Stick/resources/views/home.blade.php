@@ -8,8 +8,35 @@
     @vite('resources/css/app.css')
 </head>
 
-<body>
-    <p>hello world</p>
+<body class=" bg-slate-900 ">
+    <header class=" h-[50px] w-full flex items-center fixed text-slate-200 bg-slate-900">
+        <nav class="container mx-auto flex justify-between items-center ">
+            <a href="/" class="font-extrabold text-[180%]"><img src="" alt="">Blind Stick</a>
+            <nav class="flex gap-8">
+                <a href="/">Home</a>
+                <a href="">Service</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+            </nav>
+        </nav>
+    </header>
+    <section class="container flex items-center justify-center min-h-screen  mx-auto">
+        <div class="text-slate-200 w-[60%]  ">
+            <h3 class="text-[200%]">Hai, Selamat datang</h3>
+            <h1 class="text-[300%] font-extrabold leading-[70px]">Solusi Inovatif untuk <br> Navigasi Aman Tunanetra.</h1>
+            <p class="text-[140%]">Berikan Kemandirian, Bukan Penderitaan</p>
+            <div class="flex gap-10 mt-10">
+                <a href="/signin" class="py-3 px-14 bg-green-500 rounded-[10px] ">Daftar</a>
+                <a href="/login" class="py-3 px-14 bg-transparent border-gray-100 outline-none border-[1px] rounded-[10px] ">Masuk</a>
+            </div>
+        </div>
+        <div class="w-[40%] ">
+            <img src="/asset/image/main_image.svg" alt="" class="h-[500px] w-[500px]">
+        </div>
+    </section>
+    <section class="container flex items-center justify-center min-h-screen  mx-auto">
+
+    </section>
     <script type="module">
         import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js'
         import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js'
