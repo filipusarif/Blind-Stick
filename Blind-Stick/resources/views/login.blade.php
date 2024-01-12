@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Stick</title>
     @vite('resources/css/app.css')
 </head>
 
 <body>
-    <button id="btnGoogle">login</button>
+    <button id="btnGoogle">login dengan google</button>
     <script type="module">
         import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js'
         import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js'
